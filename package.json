@@ -1,0 +1,29 @@
+{
+  "name": "fdbeditor",
+  "version": "0.0.1",
+  "description": "File editor based on fdbserver",
+  "main": "server",
+  "dependencies": {
+    "fdbserver": "^1.6.4"
+  },
+  "devDependencies": {},
+  "bin": {
+    "fdbeditor": "./server.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccckmit/fdbeditor.git"
+  },
+  "keywords": [
+    "CMS"
+  ],
+  "author": "ccckmit <ccckmit@gmail.com> (http://ccc.nqu.edu.tw)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccckmit/fdbeditor/issues"
+  },
+  "homepage": "https://github.com/ccckmit/fdbeditor#readme"
+}
